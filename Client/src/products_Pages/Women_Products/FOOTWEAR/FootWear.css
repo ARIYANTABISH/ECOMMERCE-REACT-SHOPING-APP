@@ -1,0 +1,27 @@
+ 
+.click:hover {
+  cursor: pointer;
+}
+
+.card_img:hover {
+  scale: 0.9;
+}
+.card_name {
+  font-weight: bold;
+  display: flex;
+  font-size: 25px; 
+}
+.card_name:hover {
+  color: rgb(0, 3, 201);
+}
+.price {
+  color: red;
+}
+.card_title {
+  color: rgb(63, 55, 55);
+  font-family: "Roboto Slab", serif;
+  font-weight: 800;
+}
+.card_title:hover {
+  color: rgb(36, 36, 36);
+}

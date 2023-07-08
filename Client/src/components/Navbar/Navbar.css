@@ -1,0 +1,114 @@
+/* all pages items and link hover modal  */
+.item-model {
+  background-color: rgb(224, 224, 224);
+  z-index: 1;
+  position: relative;
+  margin-top: -8px;
+  display: flex;
+  padding: 2rem;
+  box-shadow: 0px 0px 3px rgb(97, 97, 97);
+}
+
+/* page category title  */
+.h1 {
+  font-weight: bold;
+  font-size: 1rem;
+  width: 1100%;
+}
+/* sublinks styling in all pages */
+.hh1 {
+  font-weight: bolder;
+  font-size: 15px;
+  text-decoration: underline;
+  letter-spacing: 1.3px;
+}
+.NavLink:hover {
+  color: rgb(192, 196, 4);
+}
+
+/* all pages link styling  */
+.li {
+  display: flex;
+  width: 1100%;
+  align-items: center;
+  padding-top: 7px;
+  font-family: sans-serif;
+  font-size: 14px; 
+  letter-spacing: 0.5px;
+  font-family: sans-serif;
+  color: rgb(46, 46, 46);
+}
+
+/* all pages link modal box  */
+.Link-model {
+  position: initial;
+  padding: 5rem; 
+}
+.ul {
+  display: flex;
+  margin-left: 0%;
+  margin-right: 2rem;
+}
+
+/* mobile responsiveneess */
+@media (max-width: 767px) {
+  .cros {
+    width: 2.5rem;
+  }
+
+  ul {
+    display: grid;
+    font-weight: bolder;
+    color: black;
+  }
+  .hh1 {
+    background-color: darkorchid;
+  }
+  /* navlink a href  */
+  li {
+    background-color: rgb(218, 252, 215);
+    display: grid;
+    margin-left: -2rem;
+  }
+
+  /* ul sub categories styling  */
+  .side_res_img {
+    background-color: rgb(255, 196, 0);
+    width: 1rem;
+    height: 3rem;
+    border-radius: 50px;
+    margin-right: 1rem;
+    overflow: hidden;
+  }
+  .mobile_res_ul {
+    background-color: rgb(0, 112, 163);
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: -13px;
+    margin-right: 2px;
+    color: white;
+    padding: 7px;
+    padding-left: 1rem;
+    margin-top: 1rem;
+    /* width: 100%; */
+  }
+
+  .hh1 {
+    font-weight: bold;
+  }
+}
+
+/* tab responsiveness styling  */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  ul {
+    font-size: 11px;
+    margin-right: 3rem;
+    width: 100%;
+  }
+  li {
+    font-size: 10px;
+  }
+  .h1 {
+    font-size: 12px;
+  }
+}

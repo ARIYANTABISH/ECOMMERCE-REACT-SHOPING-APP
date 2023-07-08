@@ -1,0 +1,88 @@
+/* tablet responsive styling */
+@media (min-width: 100px) and (max-width: 1180px) {
+  .logo {
+    margin-left: 2rem;
+  }
+
+  .category {
+    font-size: 2.3rem;
+    font-weight: bold;
+  }
+  .title {
+    text-align: center;
+  }
+  .name {
+    text-align: center;
+    text-align: start;
+  }
+  .intro {
+    text-align: center;
+    /* font-size: 5px; */
+  }
+  .images img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .point {
+    padding: 1px;
+    font-size: 7px;
+  }
+  .card_btn button {
+    font-size: 1px;
+  }
+  .devider {
+    background-color: black;
+    height: 2px;
+    width: 100%;
+    border-radius: 100px;
+  }
+  .more {
+    margin-right: 1rem;
+  }
+
+  .Card0 {
+    width: 100%;
+    margin-top: 30rem;
+  }
+  .card0_info1 {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  .Card0info {
+    display: flex;
+  }
+
+  .cardimg {
+    display: grid;
+  }
+  .cardimg img {
+    width: 100%;
+    height: 100%;
+  }
+  .intro0 {
+    margin-left: 1rem;
+  }
+  .card0_info1 {
+    color: black;
+    font-size: 25px;
+  }
+  .btn0 button {
+    background-color: rgb(255, 0, 0);
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+
+    font-size: 1.3rem;
+    display: flex;
+    text-align: center;
+  }
+
+  Footer {
+    width: 100%;
+  }
+  .footer-content {
+    flex-direction: column;
+    margin: auto;
+  }
+}

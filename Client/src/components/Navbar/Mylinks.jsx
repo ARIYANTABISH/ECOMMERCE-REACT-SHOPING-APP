@@ -1,0 +1,481 @@
+export const links = [
+  {
+    id: "2010",
+    name: "Xexone Health",
+    submenu: true,
+    sublinks: [
+      {
+        id: "301",
+        Head: "GENERAL HEALTH",
+        sublink: [
+          { id: "1", name: "Weight Loss", link: "/Weight-Loss" },
+          { id: "2", name: "Mental Health", link: "/Mental-Health" },
+          { id: "5", name: "Keto Diet", link: "/Keto-Diet" }, 
+          { id: "3", name: "Nutrition & Diet", link: "/Nutrition-Diet" },
+          { id: "4", name: "Alternative Remedies", link: "/Alternative-Remedies" },
+          { id: "5", name: "Body Growth", link: "/Body-Growth" }, 
+        ],
+      },
+      {
+        id: "302",
+        Head: "WELLNESS PRODUCT",
+        sublink: [
+          { id: "15", name: "Stress & Anxiety", link: "/Stress-Anxiety" },
+          { id: "16", name: "Digestive Health", link: "/Digestive-Health" },
+          { id: "17", name: "Herbal Solutions", link: "/Herbal-Solutions" },
+          { id: "18", name: "Natural Remedies ", link: "/Natural-Remedies" }, 
+        ],
+      },
+      {
+        id: "303",
+        Head: "MEN'S HEALTH",
+        sublink: [
+          { id: "25", name: "Self Beauty", link: "/Men-Self-Beauty" },
+          { id: "0027", name: "Skin Care", link: "/Men-Skin-Care" },
+          { id: "626", name: "Yoga & Meditation", link: "/Men-Yoga-Meditation" },
+          { id: "0207", name: "Hair Care", link: "/Men-Hair-Care" },
+          { id: "0207", name: "Muscle Building", link: "/Muscle-Building" },
+          { id: "027", name: "Weight Loss", link: "/Men-Weight-Loss" },
+          { id: "07", name: "Sleep & Insomnia", link: "/Men-Sleep-Insomnia" },
+        ],
+      },
+      {
+        id: "304",
+        Head: "WOMEN'S HEALTH",
+        sublink: [
+          { id: "28", name: "Skin Care", link: "/Womens-Skin-Care" },
+          { id: "29", name: "Weight Loss", link: "/Women-Weight-Loss" },
+          { id: "30", name: "Stress and Anxiety Relief", link: "/Women-Stress-Anxiety" }, 
+          { id: "32", name: "Sleep & Insomnia", link: "/Women-Sleep-Insomnia" },
+          { id: "32", name: "Hair Loss & Hair Care", link: "/Women-Hair-Care-loss" },
+          { id: "33", name: "Yoga and Meditation", link: "/Women-Yoga-Meditation" },
+          { id: "33", name: "Personal Care", link: "/Women-Personal-Care" },
+        ],
+      },
+    ],
+  },
+  {
+    id: "200",
+    name: "Tech & Electronics ",
+    submenu: true,
+    sublinks: [
+      {
+        id: "301",
+        Head: "COMPUTERS",
+        sublink: [
+          { id: "1", name: "Macbook", link: "/Macbook" },
+          { id: "9", name: "Gaming Accessories", link: "/Gaming-Accessories" },
+          { id: "2", name: "Monitors", link: "/Monitors" },
+          { id: "3", name: "Mobiles", link: "/Mobiles" },
+          {  id: "10",  name: "Computer Components ",  link: "/Computer-Components",  },
+          { id: "4", name: "Servers ", link: "/Servers" },
+          {  id: "11",  name: "External Components",  link: "/External-Components", },
+          { id: "6", name: "Scanners", link: "/Scanners" },
+          { id: "7", name: "Data Storage ", link: "/Data-Storage" },
+          { id: "5", name: "Printers", link: "/Printers" },
+          { id: "12", name: "Networking Products",  link: "/Networking-Products",  },
+          { id: "13", name: "Power Strips & Surge Protectors ", link: "/Power-Strips-Surge-Protectors", },
+         
+        ],
+      },
+      {
+        id: "302",
+        Head: "ACCESSORIES_SUPPLIES",
+        sublink: [
+          { id: "20", name: "Camera & Photo", link: "/Camera-Photo" },
+          { id: "15", name: "GPS ", link: "/GPS" },
+          {  id: "8",  name: "Laptop & Accessories",  link: "/Laptop-Accessories",  },
+          { id: "16", name: "Cables", link: "/Cables" },
+          { id: "21", name: "Earbud Headphones ", link: "/Earbud-Headphones" },
+          { id: "17", name: "USB & Cards ", link: "/USB-Cards" },
+          { id: "22", name: "On-Ear Headphones", link: "/On-Ear-Headphones" },
+          { id: "18", name: "Microphones ", link: "/Microphones" },
+          {id: "14",  name: "Tablet & Accessories", link: "/Tablet-Accessories", },
+          { id: "19", name: "Power Strips", link: "/Power-Strips" },
+          { id: "23", name: "Video Projectors", link: "/Video-Projectors" },
+          {
+            id: "24",
+            name: "Mobiles & Telephone Accessories",
+            link: "/Mobiles-Telephone-Accessories",
+          },
+        ],
+      },
+      {
+        id: "303",
+        Head: "WEARABLE TECH",
+        sublink: [
+          { id: "27", name: "Activity Tracker", link: "/Activity-Tracker" },
+          { id: "25", name: "Gadgets", link: "/Gadgets" },
+          { id: "26", name: "Smart Watch", link: "/Smart-Watch" },
+        ],
+      },
+      {
+        id: "304",
+        Head: "SOFTWARES",
+        sublink: [
+          { id: "28", name: "Editing ", link: "/Editing" },
+          { id: "29", name: "Designing", link: "/Designing" },
+          { id: "32", name: "Video Games", link: "/Video-Games" },
+          { id: "30", name: "Animation", link: "/Animation" },
+          { id: "31", name: "Programing", link: "/Programing" },
+          { id: "33", name: "All Others", link: "/All-Others" },
+        ],
+      },
+    ],
+  },
+  {
+    id: "305",
+    name: "Women",
+    submenu: true,
+    sublinks: [
+      {
+        Head: "CLOTHING",
+        sublink: [
+          { name: "Jeans and Trousers", link: "/women-Jeans-and-Trousers" },
+          { name: " T-Shirts", link: "/Women-T-Shirts" },
+          { name: "Shorts and Skirts ", link: "/Girls-Shorts-and-Skirts" },
+          { name: " Jackets and Coats", link: "/Women-Jackets-and-Coats" },
+          { name: "Shirts", link: "/Women-Shirts" },
+          {
+            name: "Hoodies & Sweatshirts ",
+            link: "/Women-Hoodies-and-Sweatshirts",
+          },
+          { name: "Bodysuits ", link: "/Women-Bodysuits" },
+          { name: " Dresses", link: "/Women-Dresses" },
+          { name: " Unstitched Dresses", link: "/women-Unstitched-Dresses" },
+        ],
+      },
+      {
+        id: "306",
+        Head: "FOOTWEAR",
+        sublink: [
+          { name: "Boots", link: "/Women-Boots" },
+          { name: "Sneakers ", link: "/Women-Sneakers" },
+          { name: "Heels ", link: "/Girls-Heels" },
+          { name: " Sandals & Slides", link: "/women-Sandals-and-Slides" },
+          { name: " Flats", link: "/Girls-Flats" },
+          { name: "Wedges ", link: "/Women-Wedges" },
+          { name: "Slides ", link: "/Women-Slides" },
+        ],
+      },
+      {
+        id: "307",
+        Head: "BEAUTY",
+        sublink: [
+          { name: "Skin Care", link: "/Women-Skin-Care" },
+          { name: " Hair Care", link: "/Women-Hair-Care" },
+          { name: "Fragrances ", link: "/Women-Fragrances" },
+          { name: " Makeup", link: "/women-Makeup" },
+        ],
+      },
+      {
+        id: "308",
+        Head: "ACCESSORIES",
+        sublink: [
+          { name: "Bags", link: "/Women-Bags" },
+          { name: "Watches", link: "/Women-Watches" },
+          { name: " Jewellery", link: "/Girls-Jewellery" },
+          { name: "Socks & Gloves ", link: "/Women-Socks-Gloves" },
+          { name: "Hair clips & tie ", link: "/women-Hair-clips-tie" },
+        ],
+      },
+      {
+        id: "309",
+        Head: "LINGERIE NIGHTWEAR",
+        sublink: [
+          { name: " Sleepwear", link: "/women-Sleepwear" },
+          { name: " Kaftan", link: "/women-Kaftan" },
+          { name: " Innerwear", link: "/women-Innerwear" },
+          { name: "Bras & Panties ", link: "/women-Bras-Panties" },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "300",
+    name: "Men",
+    submenu: true,
+    sublinks: [
+      {
+        id: "310",
+        Head: "CLOTHING",
+        sublink: [
+          { id: "34", name: "T-Shirts", link: "/Men-T-Shirts" },
+          { id: "35", name: " Polo Shirts", link: "/Men-Polo-Shirts" },
+          { id: "36", name: " Coats & Jackets", link: "/Men-Coats-Jackets" },
+          { id: "37", name: "Sweat Shirts ", link: "/Men-Sweat-Shirts" },
+          { id: "38", name: "Sweat Pants ", link: "/Men-Sweat-Pants" },
+          { id: "39", name: " Jeans", link: "/Men-Jeans" },
+          { id: "40", name: "Shirts ", link: "/Men-Shirts" },
+          { id: "41", name: "Shorts ", link: "/Men-Shorts" },
+          { id: "42", name: "Swimwear ", link: "/Men-Swimwear" },
+          { id: "43", name: "Trousers ", link: "/Men-Trousers" },
+        ],
+      },
+      {
+        id: "311",
+        Head: "ACCESSORIES",
+        sublink: [
+          { id: "44", name: "Bags", link: "/Men-Bags" },
+          { id: "45", name: " Belts", link: "/Men-Belts" },
+          { id: "46", name: " Hats", link: "/Men-Hats" },
+          {
+            id: "47",
+            name: " Scarfs And Gloves",
+            link: "/Men-Scarfs-And-Gloves",
+          },
+          {
+            id: "48",
+            name: " Wallets & Keychains",
+            link: "/Men-Wallets-and-Keychains",
+          },
+          { id: "49", name: "Jewellery ", link: "/Men-Jewellery" },
+          { id: "50", name: "Sunglasses ", link: "/Men-Sunglasses" },
+        ],
+      },
+      {
+        id: "312",
+        Head: "FOOTWEARE",
+        sublink: [
+          { id: "51", name: "Boots", link: "/Men-Boots" },
+          { id: "52", name: "Jogers ", link: "/Men-Jogers" },
+          { id: "53", name: "Sneakers ", link: "/Men-Sneakers" },
+          { id: "54", name: " Slides", link: "/Men-Slides" },
+          { id: "55", name: " Sandals", link: "/Men-Sandals" },
+        ],
+      },
+      {
+        id: "314",
+        Head: "INNERWEARE",
+        sublink: [
+          { id: "56", name: "Boxers", link: "/Men-Boxers" },
+          { id: "57", name: "Underwear", link: "/Men-Underwear" },
+          { id: "58", name: "Socks", link: "/Men-Socks" },
+        ],
+      },
+    ],
+  },
+  {
+    id: "400",
+    name: "Kid's",
+    submenu: true,
+    sublinks: [
+      {
+        id: "315",
+        Head: " GIRL'S CLOTHING",
+        sublink: [
+          { id: "59", name: " T-Shirts", link: "/Girls-T-Shirts" },
+          { id: "60", name: " Dresses", link: "/Girls-Dresses" },
+          { id: "", name: "Trousers ", link: "/Girls-Trousers" },
+          { id: "61", name: "Pents ", link: "/Baby-Pents" },
+          { id: "62", name: "Swimwear ", link: "/Girls-Swimwear" },
+          { id: "63", name: "Footwear ", link: "/Girls-Footwear" },
+          {
+            id: "64",
+            name: "Jackets and Coats ",
+            link: "/Girls-Jackets-and-Coats",
+          },
+          {
+            id: "65",
+            name: "Shorts and Skirts ",
+            link: "/Girls-Shorts-and-Skirts",
+          },
+        ],
+      },
+      {
+        id: "316",
+        Head: " BOY's CLOTHING",
+        sublink: [
+          { id: "66", name: " T-Shirts", link: "/Boys-T-Shirts" },
+          { id: "68", name: "Shorts ", link: "/Boys-Shorts" },
+          { id: "69", name: "Trousers ", link: "/Boys-Trousers" },
+          { id: "70", name: "Pents ", link: "/Boys-Pents" },
+          {
+            id: "70",
+            name: "Jackets & Coats ",
+            link: "/Boys-Jackets-and-Coates",
+          },
+          { id: "71", name: "Swimwear ", link: "/Boys-Swimwear" },
+          { id: "72", name: "Footwear ", link: "/Boys-Footwear" },
+        ],
+      },
+
+      {
+        id: "317",
+        Head: "GILRS & BOYS",
+        sublink: [
+          { id: "73", name: "Water Bottles ", link: "/Water-Bottles" },
+          { id: "74", name: "Hats", link: "/kids-Hats" },
+          {
+            id: "75",
+            name: "Socks and Tights ",
+            link: "/kids-Socks-and-Tights",
+          },
+          { id: "76", name: "Babygrows ", link: "/Baby-Grows" },
+          { id: "77", name: "Accessories ", link: "/kids-Accessories" },
+          {
+            id: "78",
+            name: "Electric Products ",
+            link: "/kids-Electric-Products",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "500",
+    name: "Beauty Fitness",
+    submenu: true,
+    sublinks: [
+      {
+        id: "318",
+        Head: "WELLNES",
+        sublink: [
+          { id: "79", name: "Body Care", link: "/Body-Care" },
+          { id: "80", name: "Hair Care", link: "/Hair-Care" },
+          { id: "81", name: " Food supplements", link: "/Food-supplements" },
+          { id: "82", name: "Natural   ", link: "/Natural" },
+          { id: "83", name: "Madesan", link: "/Madesan" },
+          { id: "84", name: "Sugar", link: "/Sugar" },
+          { id: "85", name: "Blood Pressure", link: "/Blood-Pressure" },
+        ],
+      },
+      {
+        id: "319",
+        Head: "Beauty Care",
+        sublink: [
+          { id: "86", name: " Skin Care", link: "/Skin-Care" },
+          { id: "87", name: "Hair Care ", link: "/Hair" },
+          { id: "88", name: "Fragrance ", link: "/Fragrance" },
+          { id: "89", name: "Foot, Hand & Nail", link: "/Foot-Hand-Nail" },
+          {
+            id: "90",
+            name: " Tools & Accessories",
+            link: "/Tools-Accessories",
+          },
+          {
+            id: "91",
+            name: "Shave, Hair Removal ",
+            link: "/Shave-Hair-Removal",
+          },
+          { id: "92", name: "Personal Care ", link: "/Personal-Care" },
+          { id: "93", name: "Oral Care ", link: "/Oral-Care" },
+        ],
+      },
+      {
+        id: "320",
+        Head: "Sports Fitness",
+        sublink: [
+          { id: "94", name: "Vitamins Minerals", link: "/Vitamins-Minerals" },
+          { id: "95", name: "Herbal Botanical ", link: "/Herbal-Botanical" },
+          { id: "96", name: "Supplements ", link: "/SSupplements" },
+          { id: "97", name: " Herbal Sleep", link: "/Herbal-Sleep" },
+          { id: "98", name: "Cognitive Health ", link: "/Cognitive-Health" },
+        ],
+      },
+      {
+        id: "321",
+        Head: "Weight Loss",
+        sublink: [
+          { id: "99", name: "Electronics ", link: "/Weight-Loss-Electronics" },
+          { id: "100", name: "Herbal Natural ", link: "/Herbal-Natural" },
+          { id: "102", name: " Sports products", link: "/Sports-products" },
+        ],
+      },
+    ],
+  },
+  {
+    id: "600",
+    name: "Home_Kitchen ",
+    submenu: true,
+    sublinks: [
+      {
+        id: "3022",
+        Head: "KITCHEN",
+        sublink: [
+          { id: "103", name: "Kitchen & Dining ", link: "/Kitchen-Dining" },
+          { id: "104", name: "Bath", link: "/Bath" },
+          { id: "105", name: "Floor Care ", link: "/Floor-Care" },
+          {
+            id: "106",
+            name: "Kithcen Electronics",
+            link: "/Kithcen-Electronics",
+          },
+          { id: "107", name: "Cooking Utensils ", link: "/Cooking-Utensils" },
+          { id: "108", name: "Stove", link: "/Stove" },
+          { id: "109", name: "Cleaning Supplies", link: "/Cleaning-Supplies" },
+        ],
+      },
+      {
+        id: "3024",
+        Head: "ROME",
+        sublink: [
+          { id: "110", name: "Rome Electronics", link: "/Rome-Electronics" },
+          { id: "111", name: "Bedding", link: "/Bedding" },
+          { id: "112", name: "Furniture ", link: "/Furniture" },
+          { id: "113", name: "Lighting fixtures", link: "/Lighting-fixtures" },
+          { id: "114", name: "Home Clothing", link: "/Home-Clothing" },
+        ],
+      },
+      {
+        id: "3025",
+        Head: "Heating and Cooling",
+        sublink: [
+          { id: "115", name: "Refrigerators", link: "/Refrigerator" },
+          { id: "116", name: "Air Conditioner ", link: "/Air-Conditioner" },
+          { id: "117", name: "Smart Fan", link: "/Smart-Fan" },
+          { id: "118", name: " Heating Products", link: "/Heating-Products" },
+        ],
+      },
+    ],
+  },
+  {
+    id: "700",
+    name: "Pets",
+    submenu: true,
+    sublinks: [
+      {
+        id: "3026",
+        Head: "DOGS",
+        sublink: [
+          { id: "119", name: "Beds ", link: "/Beds" },
+          { id: "125", name: "Harnesses ", link: "/Harnesses" },
+          { id: "123", name: "Leashes", link: "/Leashes" },
+          { id: "120", name: "Food ", link: "/Food" },
+          { id: "124", name: "DNA tests ", link: "/Dna-test" },
+          { id: "121", name: "Crates ", link: "/Crates" },
+          { id: "126", name: "Nail grinders", link: "/Nail-grinders" },
+        ],
+      },
+      {
+        id: "3027",
+        Head: "CATES",
+        sublink: [
+          { id: "127", name: "Food ", link: "/Cates-Food" },
+          { id: "128", name: "Litter mats ", link: "/Litter-mats" },
+          { id: "129", name: "Scratchers", link: "/Scratchers" },
+          { id: "130", name: "Cat litters ", link: "/Cat-litters" },
+          { id: "131", name: "Litter boxes ", link: "/Litter-boxes" },
+          { id: "131", name: "Horses Products", link: "/Horses" },
+        ],
+        
+      },
+      {
+        id: "3028",
+        Head: "FISHES",
+        sublink: [
+          { id: "132", name: "Breeding Tanks", link: "/Breeding-Tanks" },
+          {
+            id: "133",
+            name: " Medication & Health",
+            link: "/Medication-Health",
+          },
+          { id: "134", name: "Aquarium Stands ", link: "/Aquarium-Stands " },
+          { id: "135", name: "Fish Feed ", link: "/Fish-Feed" },
+          { id: "136", name: "  Aquarium Lights", link: "/Aquarium-Lights" },
+        ],
+      },
+    ],
+  },
+];

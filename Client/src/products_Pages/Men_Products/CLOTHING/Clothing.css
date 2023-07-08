@@ -1,0 +1,28 @@
+.card{
+  background-color: rgba(168, 168, 168, 0.521);
+}
+.card_img {
+  width: 40%;
+  cursor: pointer; 
+}
+.card_name {
+  margin-left: 4.5rem;
+}
+.price {
+  font-size: 25px;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+.price:hover{
+  color: rgb(255, 125, 50);
+}
+.off{
+  position: absolute;
+   font-weight: bolder;
+   font-size: 25px;
+   left: 16rem;
+   top: 5px;
+   padding: 5px;
+   background-color: rgb(255, 227, 189);
+}

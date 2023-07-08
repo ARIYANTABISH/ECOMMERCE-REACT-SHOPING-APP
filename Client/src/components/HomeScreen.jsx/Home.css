@@ -1,0 +1,81 @@
+header {
+  height: 24rem;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../HomeScreen.jsx//img/banner.png");
+}
+
+/* products page styling  */
+.category {
+  margin-left: 20rem;
+  text-align: center;
+  padding-bottom: 8rem;
+  display: flex;
+}
+
+.h1 {
+  font-weight: bold;
+  margin-left: 25rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+
+/* .home{
+  
+} */
+
+.card {
+  text-align: center;
+}
+.card_title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media (min-width: 200px) and (max-width: 767px) {
+  .header {
+    width: 100%;
+    overflow: hidden;
+    height: 10rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  .home {
+    width: 100%;
+  }
+  .h1 {
+    margin-left: -0.1rem;
+    padding-left: 2.5rem;
+    padding-right: 1rem;
+    font-size: 2.7rem;
+    width: 100%;
+    padding-bottom: 2px;
+  }
+  .card {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    float: none;
+    z-index: -1;
+  }
+  .card_body {
+    width: 100%;
+    overflow: hidden;
+  }
+  .card_title {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .card_desc {
+    font-size: 18px;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 5px;
+    justify-content: left;
+  }
+   
+
+}
